@@ -6,7 +6,7 @@ export default function Hero() {
           {/* Left side - Content */}
           <div className="flex-1 text-center lg:text-left">
             <h1 className="text-5xl md:text-6xl font-bold text-text-primary mb-6 tracking-tight">
-              Know When Claude Needs You
+              Claude Status at a Glance Without Tabbing Out
             </h1>
             <p className="text-xl text-text-secondary mb-4 max-w-2xl">
               A tiny macOS widget that shows Claude Code&apos;s status in real-time.
