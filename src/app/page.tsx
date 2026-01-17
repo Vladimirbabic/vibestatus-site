@@ -3,7 +3,6 @@ import Hero from "@/components/Hero";
 import Problem from "@/components/Problem";
 import StatusStates from "@/components/StatusStates";
 import Features from "@/components/Features";
-import Screenshots from "@/components/Screenshots";
 import HowItWorks from "@/components/HowItWorks";
 import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
@@ -16,9 +15,8 @@ export default function Home() {
       <main>
         <Hero />
         <Problem />
-        <StatusStates />
         <Features />
-        <Screenshots />
+        <StatusStates />
         <HowItWorks />
         <Pricing />
         <FAQ />

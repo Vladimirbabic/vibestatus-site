@@ -5,9 +5,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-bg-card border border-border-subtle flex items-center justify-center">
-              <div className="w-3 h-3 rounded-full bg-accent-orange" />
-            </div>
+            <img src="/vibestatus.png" alt="VibeStatus" className="w-8 h-8" />
             <span className="font-semibold text-text-primary">VibeStatus</span>
           </div>
 
