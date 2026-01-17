@@ -85,55 +85,20 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right side - App Preview */}
+          {/* Right side - Video */}
           <div className="flex-1 w-full max-w-xl lg:max-w-none">
             <div className="relative">
-              {/* Main preview card */}
+              {/* Video container */}
               <div className="relative bg-gradient-to-br from-bg-card via-bg-card to-bg-secondary border border-border-subtle rounded-2xl overflow-hidden shadow-2xl">
-                {/* Fake macOS window bar */}
-                <div className="flex items-center gap-2 px-4 py-3 bg-bg-secondary/50 border-b border-border-subtle">
-                  <div className="w-3 h-3 rounded-full bg-red-500/60"></div>
-                  <div className="w-3 h-3 rounded-full bg-yellow-500/60"></div>
-                  <div className="w-3 h-3 rounded-full bg-green-500/60"></div>
-                  <span className="ml-2 text-xs text-text-muted">VibeStatus</span>
-                </div>
-
-                {/* Content */}
-                <div className="p-8 aspect-video flex items-center justify-center">
-                  <div className="text-center">
-                    {/* Animated status indicator */}
-                    <div className="relative inline-flex mb-6">
-                      <div className="w-20 h-20 rounded-full bg-accent-orange/20 flex items-center justify-center">
-                        <div className="w-12 h-12 rounded-full bg-accent-orange animate-pulse-orange"></div>
-                      </div>
-                    </div>
-                    <div className="text-2xl font-semibold text-text-primary mb-1">Working</div>
-                    <div className="text-text-muted text-sm">Claude is thinking...</div>
-
-                    {/* Mini status bar */}
-                    <div className="mt-6 flex items-center justify-center gap-3">
-                      <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-bg-secondary border border-border-subtle">
-                        <div className="w-2 h-2 rounded-full bg-accent-orange animate-pulse"></div>
-                        <span className="text-xs text-text-secondary">1 session</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Floating elements */}
-              <div className="absolute -top-4 -right-4 px-3 py-2 bg-bg-card border border-border-subtle rounded-lg shadow-xl animate-float">
-                <div className="flex items-center gap-2">
-                  <div className="w-3 h-3 rounded-full bg-accent-green"></div>
-                  <span className="text-sm font-medium text-text-primary">Ready</span>
-                </div>
-              </div>
-
-              <div className="absolute -bottom-4 -left-4 px-3 py-2 bg-bg-card border border-accent-blue/30 rounded-lg shadow-xl animate-float" style={{ animationDelay: "1s" }}>
-                <div className="flex items-center gap-2">
-                  <div className="w-3 h-3 rounded-full bg-accent-blue animate-pulse"></div>
-                  <span className="text-sm font-medium text-text-primary">Needs Input</span>
-                </div>
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-auto"
+                >
+                  <source src="/hero-video.mp4" type="video/mp4" />
+                </video>
               </div>
 
               {/* Background glow */}
