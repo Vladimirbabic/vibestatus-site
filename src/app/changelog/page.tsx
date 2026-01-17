@@ -21,7 +21,7 @@ interface GitHubRelease {
 async function getReleases(): Promise<GitHubRelease[]> {
   try {
     const res = await fetch(
-      "https://api.github.com/repos/AmbientRun/VibeStatus/releases",
+      "https://api.github.com/repos/Vladimirbabic/vibestatus/releases",
       {
         headers: {
           Accept: "application/vnd.github.v3+json",

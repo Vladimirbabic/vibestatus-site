@@ -40,7 +40,7 @@ export default function Pricing() {
           </ul>
 
           <a
-            href="https://github.com/AmbientRun/VibeStatus/releases/latest"
+            href="https://github.com/Vladimirbabic/vibestatus/releases/latest/download/VibeStatus.zip"
             className="block w-full py-3 bg-text-primary text-bg-primary rounded-xl font-semibold hover:bg-text-secondary transition-colors"
           >
             Download Now

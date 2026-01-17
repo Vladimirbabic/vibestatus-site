@@ -12,25 +12,25 @@ export default function Footer() {
           {/* Links */}
           <nav className="flex flex-wrap items-center justify-center gap-6 text-sm">
             <a
-              href="https://github.com/AmbientRun/VibeStatus/releases/latest"
+              href="https://github.com/Vladimirbabic/vibestatus/releases/latest/download/VibeStatus.zip"
               className="text-text-secondary hover:text-text-primary transition-colors"
             >
               Download
             </a>
             <a
-              href="https://github.com/AmbientRun/VibeStatus"
+              href="https://github.com/Vladimirbabic/vibestatus"
               className="text-text-secondary hover:text-text-primary transition-colors"
             >
               GitHub
             </a>
             <a
-              href="https://github.com/AmbientRun/VibeStatus/blob/main/CHANGELOG.md"
+              href="/changelog"
               className="text-text-secondary hover:text-text-primary transition-colors"
             >
               Changelog
             </a>
             <a
-              href="https://github.com/AmbientRun/VibeStatus/issues"
+              href="https://github.com/Vladimirbabic/vibestatus/issues"
               className="text-text-secondary hover:text-text-primary transition-colors"
             >
               Report Issue

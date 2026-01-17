@@ -17,7 +17,7 @@ export default function Hero() {
             </p>
 
             <a
-              href="https://github.com/AmbientRun/VibeStatus/releases/latest"
+              href="https://github.com/Vladimirbabic/vibestatus/releases/latest/download/VibeStatus.zip"
               className="inline-flex items-center gap-2 px-6 py-3 bg-text-primary text-bg-primary rounded-xl font-semibold text-base hover:bg-text-secondary transition-all hover:scale-105"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
