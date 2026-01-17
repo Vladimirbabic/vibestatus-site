@@ -20,13 +20,14 @@ export default function Hero() {
             </div>
 
             <h1 className="text-5xl md:text-6xl font-bold text-text-primary mb-6 tracking-tight leading-[1.1]">
-              Claude Status at a Glance{" "}
+              Know when Claude is done so you can{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-orange to-accent-green">
-                Without Tabbing Out
-              </span>
+                VIBE
+              </span>{" "}
+              again
             </h1>
             <p className="text-xl text-text-secondary mb-4 max-w-2xl">
-              A tiny macOS widget that shows Claude Code&apos;s status in real-time.
+              Tiny macOS app that notifies you when Claude is done in terminal.
               Never miss a prompt again.
             </p>
             <p className="text-text-muted mb-10">
