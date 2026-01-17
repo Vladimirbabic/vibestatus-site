@@ -16,7 +16,7 @@ export default function Hero() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-orange opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-accent-orange"></span>
               </span>
-              For Claude Code Users
+              For Claude Code in Terminal
             </div>
 
             <h1 className="text-5xl md:text-6xl font-bold text-text-primary mb-6 tracking-tight leading-[1.1]">
