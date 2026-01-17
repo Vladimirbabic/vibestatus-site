@@ -86,8 +86,8 @@ export default function Hero() {
           </div>
 
           {/* Right side - Video */}
-          <div className="flex-1 w-full max-w-xl lg:max-w-none">
-            <div className="relative">
+          <div className="lg:flex-[1.4] w-full">
+            <div className="relative lg:scale-[1.4] lg:origin-left">
               {/* Video container */}
               <div className="relative bg-gradient-to-br from-bg-card via-bg-card to-bg-secondary border border-border-subtle rounded-2xl overflow-hidden shadow-2xl">
                 <video
