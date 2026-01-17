@@ -9,6 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://vibestatus.app"),
   title: "VibeStatus - Claude Code Status for macOS Menu Bar",
   description: "A tiny macOS widget that shows Claude Code's real-time status. Never miss a prompt again. Free and open source.",
   keywords: ["Claude", "Claude Code", "macOS", "menu bar", "status", "vibe coding", "AI coding assistant"],
