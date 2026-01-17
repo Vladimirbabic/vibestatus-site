@@ -17,10 +17,10 @@ export default function Features() {
               <span className="text-text-muted text-sm">Widget graphic</span>
             </div>
             <h3 className="text-text-primary font-semibold text-xl mb-2">
-              Always Visible Widget
+              See Claude Status Instantly
             </h3>
             <p className="text-text-secondary leading-relaxed">
-              Floating widget stays on top of all windows. Drag it anywhere on your screen. Never loses focus while you work.
+              Real-time updates keep you informed without switching windows. Floating widget stays on top and goes wherever you need it.
             </p>
           </div>
 
@@ -30,10 +30,10 @@ export default function Features() {
               <span className="text-text-muted text-sm">Menu bar graphic</span>
             </div>
             <h3 className="text-text-primary font-semibold text-xl mb-2">
-              Menu Bar Icon
+              Minimal Menu Bar Icon
             </h3>
             <p className="text-text-secondary leading-relaxed">
-              Minimal footprint in your menu bar. Color-coded status at a glance. Click for quick actions and settings.
+              Get status at a glance without distraction. Color-coded indicator lives quietly in your menu bar until you need it.
             </p>
           </div>
 
@@ -43,10 +43,10 @@ export default function Features() {
               <span className="text-text-muted text-sm">Sound graphic</span>
             </div>
             <h3 className="text-text-primary font-semibold text-xl mb-2">
-              Sound Notifications
+              Custom Alerts
             </h3>
             <p className="text-text-secondary leading-relaxed">
-              Customizable audio cues when status changes. Never miss when Claude needs you.
+              Know immediately when Claude needs you, even if you&apos;re focused in another app. Customizable sounds for each status change.
             </p>
           </div>
 
@@ -56,10 +56,10 @@ export default function Features() {
               <span className="text-text-muted text-sm">Terminal graphic</span>
             </div>
             <h3 className="text-text-primary font-semibold text-xl mb-2">
-              Multi-Terminal Support
+              Run Multiple Sessions
             </h3>
             <p className="text-text-secondary leading-relaxed">
-              Track multiple Claude sessions at once. Aggregated status with session count.
+              Stay productive across all your projects. Track multiple Claude sessions at once with aggregated status and counts.
             </p>
           </div>
         </div>

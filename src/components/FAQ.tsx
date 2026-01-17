@@ -4,29 +4,29 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "Does this work with Claude in the browser?",
+    question: "Does VibeStatus work with Claude in the browser?",
     answer:
       "No, VibeStatus is specifically designed for Claude Code (the CLI/terminal version). It uses Claude Code's hook system to receive status updates.",
   },
   {
-    question: "Will this slow down my Mac?",
+    question: "Does VibeStatus impact Mac performance?",
     answer:
-      "No. VibeStatus is extremely lightweight (~2MB) and uses virtually no CPU. It simply reads status files that Claude Code writes.",
+      "Not at all. VibeStatus is extremely lightweight (~2MB) and uses virtually no CPU. It simply reads status files that Claude Code writes — no heavy background processes.",
   },
   {
-    question: "How do I customize the notification sounds?",
+    question: "Can I customize when and how I get notified?",
     answer:
-      "Click the gear icon in the menu bar dropdown to access settings. You can choose different sounds for each status change or disable sounds entirely.",
+      "Yes! Click the gear icon in the menu bar dropdown to access settings. You can choose different sounds for each status change, adjust volumes, or disable sounds entirely.",
   },
   {
-    question: "Is my data safe?",
+    question: "Is VibeStatus secure and private?",
     answer:
-      "Yes. VibeStatus is 100% local. No analytics, no tracking, no network requests. The source code is open on GitHub for full transparency.",
+      "Absolutely. VibeStatus is 100% local — no analytics, no tracking, no network requests. Your data never leaves your Mac. The source code is open on GitHub for full transparency.",
   },
   {
-    question: "What happens when I run multiple Claude sessions?",
+    question: "How does VibeStatus handle multiple Claude sessions?",
     answer:
-      'VibeStatus tracks all sessions and shows an aggregated status with the count (e.g., "Working (3)"). If any session needs input, that takes priority.',
+      'It tracks all sessions automatically and shows an aggregated status with the count (e.g., "Working (3)"). If any session needs input, that takes priority so you never miss a prompt.',
   },
 ];
 
