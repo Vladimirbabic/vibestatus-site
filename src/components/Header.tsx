@@ -20,16 +20,24 @@ export default function Header() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <div className="flex items-center gap-2">
+        <a href="/" className="flex items-center gap-2">
           <img src="/vibestatus.png" alt="VibeStatus" className="w-8 h-8" />
           <span className="font-semibold text-lg text-text-primary">VibeStatus</span>
-        </div>
-        <a
-          href="https://github.com/AmbientRun/VibeStatus/releases/latest"
-          className="px-4 py-2 bg-text-primary text-bg-primary rounded-lg font-medium text-sm hover:bg-text-secondary transition-colors"
-        >
-          Download
         </a>
+        <div className="flex items-center gap-6">
+          <a
+            href="/changelog"
+            className="text-sm text-text-secondary hover:text-text-primary transition-colors"
+          >
+            Changelog
+          </a>
+          <a
+            href="https://github.com/AmbientRun/VibeStatus/releases/latest"
+            className="px-4 py-2 bg-text-primary text-bg-primary rounded-lg font-medium text-sm hover:bg-text-secondary transition-colors"
+          >
+            Download
+          </a>
+        </div>
       </div>
     </header>
   );
