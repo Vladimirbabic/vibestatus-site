@@ -1,3 +1,5 @@
+import PolarCheckout from "./PolarCheckout";
+
 export default function Pricing() {
   return (
     <section className="py-24 px-6 relative overflow-hidden">
@@ -8,16 +10,16 @@ export default function Pricing() {
       <div className="relative max-w-4xl mx-auto text-center">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent-green/10 border border-accent-green/20 text-accent-green text-sm font-medium mb-6">
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
-          No Credit Card Required
+          One-Time Purchase
         </div>
 
         <h2 className="text-3xl md:text-4xl font-bold text-text-primary mb-4">
-          Free. Open Source. Forever.
+          One-time purchase. No subscription.
         </h2>
         <p className="text-text-secondary mb-12 max-w-xl mx-auto">
-          No subscriptions. No hidden costs. No catch. Built by developers, for developers.
+          Pay once, own forever. No recurring fees. No hidden costs. Built by developers, for developers.
         </p>
 
         {/* Pricing card */}
@@ -29,19 +31,19 @@ export default function Pricing() {
             {/* Price */}
             <div className="mb-8">
               <div className="flex items-baseline justify-center gap-1">
-                <span className="text-6xl font-bold text-text-primary">$0</span>
-                <span className="text-text-muted">/forever</span>
+                <span className="text-6xl font-bold text-text-primary">$4.99</span>
+                <span className="text-text-muted">/one-time</span>
               </div>
             </div>
 
             {/* Features list */}
             <ul className="space-y-4 text-left mb-8">
               {[
-                "All features included",
-                "Unlimited use",
+                "All features unlocked",
+                "Lifetime license",
                 "No data collection",
-                "Open source on GitHub",
-                "Community supported",
+                "License key via email",
+                "Future updates included",
               ].map((feature, index) => (
                 <li key={index} className="flex items-center gap-3">
                   <div className="flex-shrink-0 w-5 h-5 rounded-full bg-accent-green/10 flex items-center justify-center">
@@ -54,18 +56,19 @@ export default function Pricing() {
               ))}
             </ul>
 
-            {/* CTA Button */}
+            {/* CTA Button - Polar Checkout */}
+            <PolarCheckout />
+
+            {/* Secondary Download Link */}
             <a
               href="https://github.com/Vladimirbabic/vibestatus/releases/latest/download/VibeStatus.zip"
-              className="group relative block w-full py-3.5 rounded-xl font-semibold text-center overflow-hidden transition-all hover:scale-[1.02]"
+              className="block mt-4 py-2 text-center text-text-muted hover:text-text-secondary transition-colors text-sm"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-accent-orange to-accent-orange/80" />
-              <div className="absolute inset-0 bg-gradient-to-r from-accent-orange via-accent-green to-accent-orange opacity-0 group-hover:opacity-100 transition-opacity" />
-              <span className="relative text-white flex items-center justify-center gap-2">
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <span className="flex items-center justify-center gap-1.5">
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                 </svg>
-                Download Now
+                Download Trial
               </span>
             </a>
           </div>
