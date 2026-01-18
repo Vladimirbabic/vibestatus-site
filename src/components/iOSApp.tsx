@@ -144,7 +144,7 @@ export default function IOSApp() {
               </div>
 
               {/* Notification popup */}
-              <div className="absolute -top-4 -right-4 bg-bg-card border border-border-subtle rounded-2xl p-3 shadow-xl max-w-[200px] animate-bounce-slow">
+              <div className="absolute -top-4 -right-4 z-20 bg-bg-card border border-border-subtle rounded-2xl p-3 shadow-xl max-w-[200px] animate-bounce-slow">
                 <div className="flex items-start gap-2">
                   <div className="w-8 h-8 rounded-lg bg-accent-orange flex items-center justify-center flex-shrink-0">
                     <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
