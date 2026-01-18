@@ -125,7 +125,7 @@ export default function ThankYouPage() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <a
-                href="https://github.com/Vladimirbabic/vibestatus/releases/latest/download/VibeStatus.zip"
+                href="/download-latest/VibeStatus.zip"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-accent-orange to-accent-orange/80 hover:from-accent-orange hover:to-accent-green text-white font-semibold rounded-xl transition-all"
               >
                 <svg

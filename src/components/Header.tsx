@@ -32,7 +32,7 @@ export default function Header() {
             Changelog
           </a>
           <a
-            href="https://github.com/Vladimirbabic/vibestatus/releases/latest/download/VibeStatus.zip"
+            href="/download-latest/VibeStatus.zip"
             className="px-4 py-2 bg-text-primary text-bg-primary rounded-lg font-medium text-sm hover:bg-text-secondary transition-colors"
           >
             Download

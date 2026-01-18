@@ -35,7 +35,7 @@ export default function Hero() {
             </p>
 
             <a
-              href="https://github.com/Vladimirbabic/vibestatus/releases/latest/download/VibeStatus.zip"
+              href="/download-latest/VibeStatus.zip"
               className="group inline-flex items-center gap-2 px-6 py-3.5 bg-gradient-to-r from-accent-orange to-accent-orange/80 text-white rounded-xl font-semibold text-base hover:shadow-lg hover:shadow-accent-orange/25 transition-all hover:scale-105"
             >
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

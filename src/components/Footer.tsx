@@ -12,7 +12,7 @@ export default function Footer() {
           {/* Links */}
           <nav className="flex flex-wrap items-center justify-center gap-6 text-sm">
             <a
-              href="https://github.com/Vladimirbabic/vibestatus/releases/latest/download/VibeStatus.zip"
+              href="/download-latest/VibeStatus.zip"
               className="text-text-secondary hover:text-text-primary transition-colors"
             >
               Download
