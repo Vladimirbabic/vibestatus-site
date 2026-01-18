@@ -58,19 +58,6 @@ export default function Pricing() {
 
             {/* CTA Button - Polar Checkout */}
             <PolarCheckout />
-
-            {/* Secondary Download Link */}
-            <a
-              href="https://github.com/Vladimirbabic/vibestatus/releases/latest/download/VibeStatus.zip"
-              className="block mt-4 py-2 text-center text-text-muted hover:text-text-secondary transition-colors text-sm"
-            >
-              <span className="flex items-center justify-center gap-1.5">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                </svg>
-                Download Trial
-              </span>
-            </a>
           </div>
         </div>
 
