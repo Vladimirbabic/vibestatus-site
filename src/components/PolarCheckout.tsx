@@ -5,7 +5,7 @@ import { PolarEmbedCheckout } from "@polar-sh/checkout/embed";
 
 const CHECKOUT_LINK =
   process.env.NEXT_PUBLIC_POLAR_CHECKOUT_LINK ||
-  "https://buy.polar.sh/polar_cl_O6qwqlyebCVmHQ791YQv686eVlWzxxmGAc3Gc2JNYQ";
+  "https://buy.polar.sh/polar_cl_O6qwqlyebCVmHQ791YQv686eVlWzxxmGAc3Gc2JNYQa";
 
 export default function PolarCheckout() {
   useEffect(() => {
