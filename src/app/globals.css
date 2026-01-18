@@ -137,6 +137,19 @@ body {
   animation: fade-in-up 0.6s ease-out forwards;
 }
 
+@keyframes bounce-slow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 3s ease-in-out infinite;
+}
+
 /* Utility classes */
 .glass {
   background: rgba(26, 26, 26, 0.8);

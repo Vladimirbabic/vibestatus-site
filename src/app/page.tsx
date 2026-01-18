@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Problem from "@/components/Problem";
 import Features from "@/components/Features";
+import IOSApp from "@/components/iOSApp";
 import HowItWorks from "@/components/HowItWorks";
 import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <Problem />
         <Features />
+        <IOSApp />
         <HowItWorks />
         <Pricing />
         <FAQ />
